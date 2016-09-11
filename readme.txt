@@ -15,6 +15,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 You rescure post form trush box, this plugin makes it status 'draft'.
 And you can elaborate about it before publish.
 
+If you trashed post before activate this plugin, it will not be 'draft'.
+
 == Installation ==
 
 1. Install and activate the plugin through the 'Plugins' menu in WordPress
