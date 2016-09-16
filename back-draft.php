@@ -3,7 +3,7 @@
 Plugin Name: Backdraft
 Plugin URI: http://munyagu.com/
 Description: Set post status 'draft' when restore from trash box.
-Version: 1.0
+Version: 1.0.2
 Author: munyagu
 Author URI: http://munyagu.com/
 License: GPL2
