@@ -25,3 +25,9 @@ If you trashed post before activate this plugin, it will not be 'draft'.
 
 = 1.0 =
 First release.
+
+= 1.0.1 =
+fix Tested up to and add icon
+
+= 1.0.2 =
+fix this readme.txt
