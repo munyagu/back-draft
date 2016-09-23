@@ -10,17 +10,7 @@ License: GPL2
 */
 
 
-function backdraft_trashed_post( $post_id ){
-    global $wpdb;
-    $result = $wpdb->update(
-        $wpdb->postmeta,
-        array(
-            'meta_value' => 'draft'
-        ),
-        array(
-            'post_id' => $post_id,
-            'meta_key' => '_wp_trash_meta_status'
-        )
-    );
+function backdraft_untrash_post($post_id){
+    update_post_meta($post_id, '_wp_trash_meta_status', 'draft');
 }
-add_action( 'trashed_post', 'backdraft_trashed_post' );
+add_action( 'untrashed_post', 'backdraft_untrash_post' );
